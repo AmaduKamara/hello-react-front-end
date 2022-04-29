@@ -1,7 +1,7 @@
-import axios from "axios";
+import axios from 'axios';
 
 // conts
-const FETCH_GREETING = "hello-rails-react/greetings/FETCH_GREETING";
+const FETCH_GREETING = 'hello-rails-react/greetings/FETCH_GREETING';
 
 // actions
 const fetchGreeting = (payload) => ({
@@ -13,7 +13,7 @@ const fetchGreeting = (payload) => ({
 const initialState = [];
 
 export const fetchGreetingApi = () => async (dispatch) => {
-  const returnValue = await axios.get("http://localhost:3000/v1/greetings");
+  const returnValue = await axios.get('http://localhost:3000/v1/greetings');
   const greeting = returnValue.data.data.greeting.message;
   console.log(greeting);
   dispatch(fetchGreeting(greeting));

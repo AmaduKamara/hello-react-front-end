@@ -1,6 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
+/* eslint-disable react/prefer-stateless-function */
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 class Navbar extends React.Component {
   render() {
     return (

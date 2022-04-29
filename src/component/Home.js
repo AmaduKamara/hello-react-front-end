@@ -1,5 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable react/prefer-stateless-function */
+import React from 'react';
+
 class Home extends React.Component {
   render() {
     return (

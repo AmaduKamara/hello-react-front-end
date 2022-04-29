@@ -1,6 +1,7 @@
-import React, { useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { fetchGreetingApi } from "../redux/greetings/greetings";
+/* eslint-disable react/button-has-type */
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { fetchGreetingApi } from '../redux/greetings/greetings';
 
 const Greeting = () => {
   const greeting = useSelector((state) => state.greetingsReducer);
