@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Hello World Rails Greetings Frontend App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> App that generates random greetings
 
-## Available Scripts
+**App Screenshots**
 
-In the project directory, you can run:
+![image](https://user-images.githubusercontent.com/50941074/165738616-a0e1d294-58c7-4b6d-8c08-e6a32e5fc1c1.png)
 
-### `npm start`
+![image](https://user-images.githubusercontent.com/50941074/165738519-bedb1da6-24bc-413d-babd-9e7ad6a2190d.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React
+- Ruby on Rails
+- PostgreSQL
+- TailwindCSS
+- Redux
+- React Router Dom
+- Axios
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/) on your local machine
+- [Install Ruby on Rails](https://guides.rubyonrails.org/v5.1/getting_started.html)
+- Clone [this repository](https://github.com/AmaduKamara/budget-app.git)
+  ```
+  git clone https://github.com/AmaduKamara/hello-react-front-end
+  ```
+- To get started, In the root directory run:
 
-### `npm run build`
+  ```
+  gem install bundler
+  ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  Then run:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  ```
+  bundle install
+  ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  To start the server run:
 
-### `npm run eject`
+  ```
+  rails s
+  ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  Open the browser with `localhost:3000`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## After installing bundle
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Please run the following commands `rails db:create` `rails db:migrate` `rails s`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### To track linter errors locally follow these steps:
 
-## Learn More
+Track linter errors run:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+rubocop
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
+:man: **Amadu Kamara (Amkam)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [GitHub](https://github.com/AmaduKamara)
+- [LinkedIn](https://www.linkedin.com/in/amadu-kamara-3b60a25b)
+- [Twitter](https://twitter.com/DevAmkam)
+- [Facebook](https://www.facebook.com/amadus.kamara.7)
 
-### Analyzing the Bundle Size
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions, issues, and feature requests are welcome!
 
-### Making a Progressive Web App
+Feel free to check the [issues page](https://github.com/AmaduKamara/hello-react-front-end/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Show your support
 
-### Advanced Configuration
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Acknowledgments
 
-### Deployment
+Original design: Microverse React Rails App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Inspiration: Microverse
 
-### `npm run build` fails to minify
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
