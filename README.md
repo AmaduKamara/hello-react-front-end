@@ -22,7 +22,7 @@
 
 - [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/) on your local machine
 - [Install Ruby on Rails](https://guides.rubyonrails.org/v5.1/getting_started.html)
-- Clone [this repository](https://github.com/AmaduKamara/budget-app.git)
+- Clone [this repository](https://github.com/AmaduKamara/hello-react-front-end)
   ```
   git clone https://github.com/AmaduKamara/hello-react-front-end
   ```
